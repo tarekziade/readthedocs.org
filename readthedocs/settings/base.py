@@ -52,7 +52,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'pagination.middleware.PaginationMiddleware',
-    'core.middleware.SubdomainMiddleware',
+    'readthedocs.core.middleware.SubdomainMiddleware',
     #'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 )
 
@@ -117,7 +117,7 @@ HAYSTACK_CONNECTIONS = {
         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
         'URL': 'http://127.0.0.1:8983/solr',
     }
-}                       
+}
 
 AUTH_PROFILE_MODULE = "core.UserProfile"
 SOUTH_TESTS_MIGRATE = False
@@ -169,7 +169,7 @@ LOGGING = {
             'maxBytes': 50000,
             'backupCount': backup_count,
             'formatter': 'standard',
-        }, 
+        },
         'mail_admins': {
             'level': 'ERROR',
             'class': 'django.utils.log.AdminEmailHandler',
