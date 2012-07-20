@@ -1,3 +1,6 @@
+psutil
+pyzmq
+iowait
 docutils
 simplejson
 sphinx
@@ -27,3 +30,13 @@ git+https://github.com/nathanborror/django-registration.git#egg=django-registrat
 git+https://github.com/toastdriven/django-tastypie.git#egg=tastypie
 git+https://github.com/toastdriven/django-haystack#egg=django-haystack
 git+https://github.com/deceze/Sphinx-HTTP-domain.git#egg=sphinx-http-domain
+Mako
+MarkupSafe
+bottle
+anyjson
+gevent
+gevent-socketio
+gevent-websocket
+greenlet
+beaker
+git+http://github.com/mozilla-services/gevent-zeromq.git
