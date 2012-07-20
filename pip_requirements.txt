@@ -40,3 +40,5 @@ gevent-websocket
 greenlet
 beaker
 git+http://github.com/mozilla-services/gevent-zeromq.git
+circus
+chaussette
